@@ -1,0 +1,28 @@
+{
+  "name": "directory-website",
+  "version": "1.0.0",
+  "description": "This is a capstone project at the end of the Main HTML/CSS curriculum at [Microverse](https:www.microverse.org/) - @microverseinc.",
+  "main": "index.html",
+  "scripts": {
+    "lint": " npx stylelint npx stylelint ./css/.",
+    "lint-fix": "npx stylelint --fix npx stylelint ./css/.",
+    "html-validator-index": "npx html-validator-cli --verbose --file ./html/index.html",
+    "html-validator-resultspage": "npx html-validator-cli --verbose --file ./html/resultspage.html",
+    "html-validator-detailspage": "npx html-validator-cli --verbose --file ./html/detailspage.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bluette1/directory-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bluette1/directory-website/issues"
+  },
+  "homepage": "https://github.com/Bluette1/directory-website#readme",
+  "dependencies": {
+    "stylelint": "^13.3.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
