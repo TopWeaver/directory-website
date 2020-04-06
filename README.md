@@ -34,13 +34,13 @@ This project is mainly about designing a website similar to a real life project 
 # Acknowledgements
 - The design was created by <a href="https://www.behance.net/mathewnjuguna">Mather Njuguna</a> and  <a href="https://www.behance.net/aweSam"> Sam Achola </a>on behance.
 - You can view the design template used <a href="https://www.behance.net/gallery/25563385/PatashuleKE">on behance</a>.
-- The images used were retrieved from this [site](https://www.pexels.com/).
+- The images used were retrieved from [CreateMePink](http://www.createmepink.com/).
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Bluette1/Capstone-project-html/issues).
+Feel free to check the [issues page](https://github.com/Bluette1/directory-website/issues).
 
 ## Show your support
 

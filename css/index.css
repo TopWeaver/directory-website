@@ -1,4 +1,13 @@
 /* Set the defaults */
+@font-face {
+  font-family: 'kiano_trialregular';
+  src:
+    url('../public/fonts/kiano/kianotrial-webfont.woff2') format('woff2'),
+    url('../public/fonts/kiano/kianotrial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -25,6 +34,7 @@ body {
   line-height: 20px;
   color: #333;
   overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -44,4 +54,181 @@ img {
   max-height: 100%;
   cursor: pointer;
   width: 100%;
+}
+
+.page-header {
+  background-color: #d32f43;
+  font-family: 'kiano_trialregular', Arial, Helvetica, sans-serif;
+}
+
+.appreciate-section .fas.fa-thumbs-up.fa-3x {
+  border-radius: 50%;
+  background-color: #e4939c;
+  color: #fff;
+  padding: 20px;
+  margin-left: auto;
+  cursor: pointer;
+  left: -52px;
+}
+
+.appreciate-section {
+  background-color: #e66877;
+}
+
+.appreciate-section .menu-icons,
+.appreciate-section p {
+  color: #fff;
+}
+
+.page-header .logo-left .logo,
+.logo-jumbotron,
+.jumbotron-info p,
+.appreciate-section p,
+.appreciate-section h2.logo {
+  font-family: 'kiano_trialregular', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 37px;
+  color: white;
+  padding-top: 15px;
+}
+
+.jumbotron-info p,
+.appreciate-section p {
+  font-size: initial;
+}
+
+.jumbotron-info {
+  background-color: #e4939c;
+}
+
+.jumbotron-button {
+  border-color: #d32f43;
+  background-color: #d32f43;
+  color: #fff;
+}
+
+.pioneer-jumbotron,
+.jumbotron-button {
+  font-family: 'kiano_trialregular', Arial, Helvetica, sans-serif;
+
+  /* font-weight: 700;
+  font-size: 37px; */
+  color: white;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+.jumbotron-button:hover {
+  border-color: #d32f43;
+  background-color: #d32f43;
+  color: #e4939c;
+}
+
+.logo-jumbotron,
+.pioneer-jumbotron {
+  color: #d32f43;
+}
+
+/* different shades of pink: #d32f43 #d32f43 #920616 #690611; */
+
+.page-header .center-items,
+.page-header .right-section {
+  font-family: 'kiano_trialregular', Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.right-items ul li {
+  padding-top: 12px;
+}
+
+.page-header .center-items ul li,
+.page-header .right-section ul li {
+  padding-right: 5px;
+  padding-top: 12px;
+  cursor: pointer;
+}
+
+.social-links a {
+  border: 1px solid #4b4a4a;
+  border-radius: 3.125em;
+  text-decoration: none;
+  background-color: #4b4a4a;
+  font-size: 1em;
+  list-style: none;
+  color: white;
+  padding: 0.625em;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer .social-links a:hover {
+  background-color: rgb(207, 191, 207);
+  border-color: rgb(207, 191, 207);
+}
+
+.page-header.right-section ul li a,
+.page-header .logo-left .logo {
+  cursor: pointer;
+}
+
+.filter-white {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(104deg) brightness(103%) contrast(103%);
+}
+
+footer,
+h1.text-left-side,
+.text-area .brand,
+h1.text-right-side,
+h1.title-steps,
+.simple-steps {
+  font-family: 'kiano_trialregular', Arial, Helvetica, sans-serif;
+}
+
+.simple-steps h2 {
+  text-transform: uppercase;
+}
+
+h2.text-left-side {
+  color: #e4939c;
+  font-family: 'kiano_trialregular', Arial, Helvetica, sans-serif;
+}
+
+.search-area {
+  color: #d32f43;
+  background-color: #e4939c;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  border-radius: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.search-area .search-button-network button {
+  color: white;
+  background-color: #d32f43;
+  padding: 7px;
+  border-radius: 25px;
+}
+
+.text-area {
+  margin-top: 540px;
+  font-size: 1rem;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+nav.right-items {
+  margin-left: 1080px;
+}
+
+.right-items ul {
+  position: static;
+  margin-top: 120px;
+  font-size: 0.7rem;
+}
+
+.search-simple-steps h2 {
+  text-transform: uppercase;
 }
