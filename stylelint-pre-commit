@@ -9,6 +9,8 @@ if [ "$branch" = "master" ]; then
 fi
 
 # Run stylelint for all staged css files
-npx stylelint ./css/.
+npx stylelint ./css/index.css
+npx stylelint ./css/resultspage.css
+npx stylelint ./css/detailspage.css
 
 exit $?
