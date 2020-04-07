@@ -1,35 +1,32 @@
 .search-bar-menu {
-    margin-top: 200px;
-    
+  margin-top: 200px;
 }
 
- .input-group-lg>.form-control {
-
-    border: solid;
+.input-group-lg > .form-control {
+  border: solid;
 }
-
 
 .input-group-prepend img {
-    top: 6px;
-    left: 68px;
+  top: 6px;
+  left: 68px;
 }
 
 .form-control:focus {
-    border-color: #e6bbc7;
-    box-shadow: none;
+  border-color: #e6bbc7;
+  box-shadow: none;
 }
 
-.search-area  {
-    display: flex;
-    background-color: white;
+.search-area {
+  display: flex;
+  background-color: white;
 }
 
 .search-results .rows {
-    display: flex;
-    max-height: 300px;
+  display: flex;
+  max-height: 300px;
 }
 
-.search-results  {
-    background-color: #e6bbc7;
-    border: solid;
+.search-results {
+  background-color: #e6bbc7;
+  border: solid;
 }
