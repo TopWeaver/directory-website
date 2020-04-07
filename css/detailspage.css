@@ -3,6 +3,15 @@
   padding-left: 15px;
 }
 
+h2.text-left-side,
+.jumbotron-info {
+  color: #333;
+}
+
+.jumbotron-info {
+  font-family: 'kiano_trialregular', Arial, Helvetica, sans-serif;
+}
+
 .details .subscribe-area {
   color: #0f0f0f;
   padding-top: 100px;
