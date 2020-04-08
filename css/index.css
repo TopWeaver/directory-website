@@ -111,7 +111,6 @@ img {
 .jumbotron-button {
   font-family: 'kiano_trialregular', Arial, Helvetica, sans-serif;
   font-weight: 700;
-  font-size: 37px;
   color: white;
   padding-top: 15px;
   font-size: 20px;
@@ -206,6 +205,7 @@ h2.text-left-side {
   background-color: #d32f43;
   padding: 7px;
   border-radius: 25px;
+  cursor: pointer;
 }
 
 .text-area {
@@ -230,12 +230,14 @@ nav.right-items {
   text-transform: uppercase;
 }
 
-.menu-links ul, .bottom-links .left-menu ul, .right-menu ul {
+.menu-links ul,
+.right-menu ul .bottom-links .left-menu ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
+
 footer .bottom-links .left-menu ul li:not(:last-child) {
   border-right: 1px solid #333;
 }
@@ -253,10 +255,12 @@ footer .bottom-links .left-menu ul li:not(:last-child) {
 }
 
 @media screen and  (min-width: 768px) {
-  .jumbotron-pioneers, .appreciate-section {
+  .jumbotron-pioneers,
+  .appreciate-section {
     width: 75%;
   }
 }
+
 @media screen and  (max-width: 767px) {
   .page-header .logo-left.logo {
     font-size: 15px;
@@ -277,7 +281,6 @@ footer .bottom-links .left-menu ul li:not(:last-child) {
     margin-left: -5px;
   }
 }
-
 
 @media screen and  (min-width: 992px) {
   .jumbotron-pioneers {

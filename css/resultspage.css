@@ -42,15 +42,13 @@
   background-color: #d32f43;
   padding: 7px;
   border-radius: 25px;
+  cursor: pointer;
 }
+
 @media screen and  (min-width: 768px) {
   .search-bar-menu .search-bar {
     width: 100%;
   }
-}
-
-.btn-secondary {
-  /* background-color: #d32f43;  */
 }
 
 .btn {
