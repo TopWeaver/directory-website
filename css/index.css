@@ -231,7 +231,8 @@ nav.right-items {
 }
 
 .menu-links ul,
-.right-menu ul .bottom-links .left-menu ul {
+.right-menu ul,
+.bottom-links .left-menu ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

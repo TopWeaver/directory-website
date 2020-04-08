@@ -23,14 +23,13 @@
   flex-direction: row;
 }
 
-.search-results .rows {
-  display: flex;
-  max-height: 300px;
-}
-
 .search-results {
   background-color: #e6bbc7;
   border: solid;
+}
+
+.search-results .row img {
+  min-height: 258px;
 }
 
 .search-bar-menu .search-bar {
