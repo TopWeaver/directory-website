@@ -233,7 +233,7 @@ nav.right-items {
 
 .menu-links ul,
 .right-menu ul,
-.social-links ul .bottom-links .left-menu ul,
+.social-links ul, .bottom-links .left-menu ul,
 .social-links {
   display: flex;
   flex-wrap: wrap;
