@@ -21,7 +21,7 @@ This project is mainly about designing a website similar to a real-life project 
 
 ## Live Demo
 
-[Live Demo]()
+[Live Demo](https://rawcdn.githack.com/Bluette1/directory-website/8bdd8a15fac58ada575593662b5d4d83bef0b507/html/index.html)
 
 ## Authors
 
