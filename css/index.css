@@ -80,7 +80,7 @@ img {
   color: #fff;
 }
 
-.page-header .logo-left .logo,
+.page-header .logo-left.logo,
 .logo-jumbotron,
 .jumbotron-info p,
 .appreciate-section p,
@@ -110,9 +110,8 @@ img {
 .pioneer-jumbotron,
 .jumbotron-button {
   font-family: 'kiano_trialregular', Arial, Helvetica, sans-serif;
-
-  /* font-weight: 700;
-  font-size: 37px; */
+  font-weight: 700;
+  font-size: 37px;
   color: white;
   padding-top: 15px;
   font-size: 20px;
@@ -128,8 +127,6 @@ img {
 .pioneer-jumbotron {
   color: #d32f43;
 }
-
-/* different shades of pink: #d32f43 #d32f43 #920616 #690611; */
 
 .page-header .center-items,
 .page-header .right-section {
@@ -197,7 +194,6 @@ h2.text-left-side {
 
 .search-area {
   color: #d32f43;
-  background-color: #e4939c;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
   border-radius: 25px;
@@ -220,7 +216,7 @@ h2.text-left-side {
 }
 
 nav.right-items {
-  margin-left: 1080px;
+  margin-left: 87%;
   margin-top: 64px;
 }
 
@@ -232,4 +228,65 @@ nav.right-items {
 
 .search-simple-steps h2 {
   text-transform: uppercase;
+}
+
+.menu-links ul, .bottom-links .left-menu ul, .right-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+footer .bottom-links .left-menu ul li:not(:last-child) {
+  border-right: 1px solid #333;
+}
+
+@media screen and  (max-width: 1199px) {
+  h2.text-right-side {
+    margin-left: -20px;
+  }
+}
+
+@media screen and  (max-width: 831px) {
+  footer .menu-links ul li:last-child {
+    display: none;
+  }
+}
+
+@media screen and  (min-width: 768px) {
+  .jumbotron-pioneers, .appreciate-section {
+    width: 75%;
+  }
+}
+@media screen and  (max-width: 767px) {
+  .page-header .logo-left.logo {
+    font-size: 15px;
+    padding: unset;
+  }
+}
+
+@media screen and  (max-width: 744px) {
+  footer .menu-links li {
+    font-size: 14px;
+    padding-right: 15px;
+    margin: 6px 0;
+  }
+}
+
+@media screen and  (max-width: 478px) {
+  footer .social-links ul {
+    margin-left: -5px;
+  }
+}
+
+
+@media screen and  (min-width: 992px) {
+  .jumbotron-pioneers {
+    width: 50%;
+  }
+}
+
+@media screen and  (min-width: 1900px) {
+  nav.right-items {
+    margin-left: 70%;
+  }
 }

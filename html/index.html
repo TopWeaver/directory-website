@@ -10,12 +10,10 @@
     <link rel="stylesheet" href="../public/js/prefixfree.min.js">
     <title>Bedance</title>
 </head>
-<body>
-    <header class="row page-header navbar justify-content-between fixed-top">
-        <div class="logo-left d-flex align-baseline">
-            <div class="logo pl-4">Bedance</div>
-        </div>
-        <div class="center-items">
+<body class="container-lg container-fluid">
+    <header class="row page-header d-flex navbar justify-content-between fixed-top">
+        <div class="logo-left logo pl-4"><a href="#">Bedance</a></div>
+        <div class="center-items d-none d-md-inline-block">
             <ul class="d-flex justify-content-between align-items-center">
                 <li> <a href="#">Network</a></li>
                 <li><a href="#">Jobs</a></li>
@@ -51,19 +49,18 @@
                     <img src="../public/images/thumb-silhouette-ballet-dancer-princess-print-girl-isolated-cute-silhouette-ballerina-girl-pointe-shoes-vector-image.jpg" alt="">
                 </div>
             </div>
-            <article class="col-lg-2">
+            <article class="col-lg-2 col-5 m-auto pb-5">
                 <h2 class="text-right-side pt-5 text-left">NETWORK</h2>
-                    <form class="search-area pl-5 pt-5 pb-5">   
+                    <form class="search-area pl-3 w-100  pt-lg-2 pb-5">   
                         <div class="row">Find:</div>
                         <div class="row pt-3"><input type="radio" name="artists-link" value="#">Artists</div>
                         <div class="row pt-3"><input type="radio" name="presenters-link" value="#">Presenters</div>
                         <div class="row pt-3"><input type="radio" name="managers-link" value="#">Managers</div>
                         <div class="row pt-3"><input type="radio" name="media-link" value="#">Media</div>
-                        <div class="row mt-5 ml-auto mr-auto search-button-network"><button><a href="./resultspage.html">SEARCH</a></button></div>
+                        <div class="row mt-5 search-button-network"><button><a href="./resultspage.html">SEARCH</a></button></div>
                     </form>
             </article>
-
-            <nav class=" col-lg-2 right-items navbar fixed-top h-100 pt-0 d-flex flex-column align-content-end">
+            <nav class="col-lg-2 d-lg-block right-items navbar fixed-top h-100 pt-0 d-flex flex-column align-content-end">
                 <ul class="pl-0 pr-0 d-flex justify-content-between align-items-center flex-column">
                     <li><a href="#"><i class="fas fa-tools"></i></a></li>
                     <li>tools</li>
@@ -121,11 +118,11 @@
                 <div class="col-lg-3"></div>
             </div>
         </div>
-        <div class="jumbotron-fluid p-5 jumbotron-info w-50 m-auto mb-n5">
+        <div class="jumbotron-fluid jumbotron-pioneers p-5 jumbotron-info w-md-75 w-lg-50 m-auto mb-n5">
             <article class="left-jumbotron">
                 <h1 class="display-4 logo-jumbotron float-md-left mt-n4 clearfix">Bedance</h1>
                 <section class="float-md-right clearfix">
-                <h4 class="display-4 float-md-right pioneer-jumbotron mt-n4">Junyper Shole</h4>
+                <h4 class="display-4 float-md-right pioneer-jumbotron mt-md-n4">Junyper Shole</h4>
                 <p>co-founder</p>
                 </section>
             </article>
@@ -137,7 +134,7 @@
               <a class="btn btn-primary btn-lg jumbotron-button pt-2" href="#" role="button">Get in touch</a>
             </p>
           </div>
-          <div class="appreciate-section mt-5 mb-5 w-75 container-fluid">
+          <div class="appreciate-section mt-5 mb-5 w-md-75 container-fluid">
               <div class="row d-flex align-items-center flex-column justify-content-center">
                 <article class="d-flex flex-column pt-3 justify-content-center">
                     <i class="fas fa-thumbs-up fa-3x pb-3 position-relative"></i>
@@ -161,7 +158,7 @@
          <a href="#"><i class="fab fa-adobe fa-2x p-2"></i></a>
     </section>
     <div class="d-flex menu-links justify-content-center">
-        <ul class="d-flex justify-content-center align-items-center">
+        <ul>
             <li class="pr-4"><a href="#">Get involved</a></li>
             <li class="pr-4"><a href="#">Donate</a></li>
             <li class="pr-4"><a href="#">Learn More</a></li>
@@ -171,7 +168,7 @@
             <li class="pr-4"><a href="#">Subscribe</a></li>
         </ul>
     </div>
-    <div class="social-links d-flex justify-content-center align-items-center">
+    <div class="social-links d-inline-block d-md-flex justify-content-center align-items-center">
         <ul class="d-flex">
             <li class="p-2"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
             <li class="p-2"><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -183,21 +180,22 @@
         </ul>
     </div>
     <hr class="my-5">
-    <div class="bottom-links d-flex justify-content-md-between">
+    <div class="bottom-links">
         <div class="left-menu">
-            <ul class="d-flex">
-                <li><a href="#">Site map | </a></li>
-                <li class="pl-1"><a href="#"> About Us | </a></li>
-                <li class="pl-1"><a href="#"> Privacy Policy | </a></li>
-                <li class="pl-1"><a href="#"> Advertise | </a></li>
-                <li class="pl-1"><a href="#"> Terms of Sale | </a></li>
-                <li class="pl-1"><a href="#"> Terms of Service</a></li>
+            <ul>
+                <li class="pr-1"><a href="#">Site map</a></li>
+                <li class="pl-1 pr-1"><a href="#"> About Us</a></li>
+                <li class="pl-1 pr-1"><a href="#"> Privacy Policy</a></li>
+                <li class="pl-1 pr-1"><a href="#"> Advertise </a></li>
+                <li class="pl-1 pr-1"><a href="#"> Terms of Sale </a></li>
+                <li class="pl-1 pr-1"><a href="#"> Terms of Service</a></li>
             </ul>
         </div>
-
-        <div class="right-menu d-flex">
-            <p>Made in Berlin.</p>
-            <p> All member work copyright of respective owner, otherwise © 2015-2020 TopWeaver Inc.</p>
+        <div class="right-menu">
+            <ul>
+                <li>Made in Berlin.</li>
+                <li>All member work copyright of respective owner, otherwise © 2015-2020 TopWeaver Inc.</li>
+            </ul>
         </div>
     </div>
 </footer>

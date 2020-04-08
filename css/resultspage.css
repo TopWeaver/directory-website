@@ -19,6 +19,8 @@
 .search-area {
   display: flex;
   background-color: white;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .search-results .rows {
@@ -29,4 +31,33 @@
 .search-results {
   background-color: #e6bbc7;
   border: solid;
+}
+
+.search-bar-menu .search-bar {
+  width: 75%;
+}
+
+.search-button-network {
+  color: white;
+  background-color: #d32f43;
+  padding: 7px;
+  border-radius: 25px;
+}
+@media screen and  (min-width: 768px) {
+  .search-bar-menu .search-bar {
+    width: 100%;
+  }
+}
+
+.btn-secondary {
+  /* background-color: #d32f43;  */
+}
+
+.btn {
+  border-color: #e6bbc7;
+}
+
+.btn-secondary {
+  background-color: #e6bbc7;
+  border-color: #e6bbc7;
 }
