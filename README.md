@@ -17,7 +17,7 @@ This is a capstone project at the end of the main HTML/CSS curriculum at [Microv
 
 The task was to build a directory website according to the design on this [website](https://www.behance.net/gallery/25563385/PatashuleKE).
 
-This project is mainly about designing a website similar to a real-life project built with particular business requirements in mind.
+This project is mainly about designing a responsive website similar to a real-life project built with particular business requirements in mind.
 
 ## Live Demo
 

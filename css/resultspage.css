@@ -18,7 +18,7 @@
 
 .search-area {
   display: flex;
-  background-color: white;
+  background-color: #fff;
   flex-wrap: wrap;
   flex-direction: row;
 }
@@ -37,7 +37,7 @@
 }
 
 .search-button-network {
-  color: white;
+  color: #fff;
   background-color: #d32f43;
   padding: 7px;
   border-radius: 25px;
@@ -55,6 +55,22 @@
 }
 
 .btn-secondary {
+  background-color: #e6bbc7;
+  border-color: #e6bbc7;
+}
+
+.btn-secondary:focus {
+  background-color: #e6bbc7;
+  border-color: #e6bbc7;
+}
+
+.btn-secondary:hover {
+  background-color: #e6bbc7;
+  border-color: #e6bbc7;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle {
   background-color: #e6bbc7;
   border-color: #e6bbc7;
 }

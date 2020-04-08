@@ -1,5 +1,5 @@
 .details .jumbotron-info .row {
-  border: solid 1px white;
+  border: solid 1px #fff;
   padding-left: 15px;
 }
 
@@ -31,6 +31,6 @@
 }
 
 .subscribe-signup a:hover {
-  color: white;
+  color: #fff;
   background-color: #e4939c;
 }

@@ -88,7 +88,7 @@ img {
   font-family: 'kiano_trialregular', Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 37px;
-  color: white;
+  color: #fff;
   padding-top: 15px;
 }
 
@@ -111,7 +111,7 @@ img {
 .jumbotron-button {
   font-family: 'kiano_trialregular', Arial, Helvetica, sans-serif;
   font-weight: 700;
-  color: white;
+  color: #fff;
   padding-top: 15px;
   font-size: 20px;
 }
@@ -130,7 +130,7 @@ img {
 .page-header .center-items,
 .page-header .right-section {
   font-family: 'kiano_trialregular', Arial, Helvetica, sans-serif;
-  color: white;
+  color: #fff;
 }
 
 .right-items ul li {
@@ -151,12 +151,13 @@ img {
   background-color: #4b4a4a;
   font-size: 1em;
   list-style: none;
-  color: white;
+  color: #fff;
   padding: 0.625em;
 }
 
 footer a:hover {
-  color: white;
+  color: #fff;
+  background-color: #e4939c;
 }
 
 footer .social-links a:hover {
@@ -201,7 +202,7 @@ h2.text-left-side {
 }
 
 .search-area .search-button-network button {
-  color: white;
+  color: #fff;
   background-color: #d32f43;
   padding: 7px;
   border-radius: 25px;
@@ -232,7 +233,8 @@ nav.right-items {
 
 .menu-links ul,
 .right-menu ul,
-.bottom-links .left-menu ul {
+.social-links ul .bottom-links .left-menu ul,
+.social-links {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -269,7 +271,7 @@ footer .bottom-links .left-menu ul li:not(:last-child) {
   }
 }
 
-@media screen and  (max-width: 744px) {
+@media screen and (max-width: 744px) {
   footer .menu-links li {
     font-size: 14px;
     padding-right: 15px;
@@ -277,13 +279,19 @@ footer .bottom-links .left-menu ul li:not(:last-child) {
   }
 }
 
-@media screen and  (max-width: 478px) {
+@media screen and (max-width: 478px) {
   footer .social-links ul {
     margin-left: -5px;
   }
 }
 
-@media screen and  (min-width: 992px) {
+@media screen and (max-width: 379px) {
+  footer .social-links ul li {
+    margin: 9px;
+  }
+}
+
+@media screen and (min-width: 992px) {
   .jumbotron-pioneers {
     width: 50%;
   }
