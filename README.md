@@ -1,6 +1,6 @@
 # directory-website
 
-This is a capstone project at the end of the Main HTML/CSS curriculum at [Microverse](https:www.microverse.org/) - @microverseinc.
+This is a capstone project at the end of the main HTML/CSS curriculum at [Microverse](https:www.microverse.org/) - @microverseinc.
 
 # directory-website
 
@@ -15,13 +15,13 @@ This is a capstone project at the end of the Main HTML/CSS curriculum at [Microv
 
 ## Description
 
-The task was to built a directory website according to the design on this [website](https://www.behance.net/gallery/25563385/PatashuleKE).
+The task was to build a directory website according to the design on this [website](https://www.behance.net/gallery/25563385/PatashuleKE).
 
-This project is mainly about designing a website similar to a real life project built with particular business requirements in mind.
+This project is mainly about designing a responsive website similar to a real-life project built with particular business requirements in mind.
 
 ## Live Demo
 
-[Live Demo](https://rawcdn.githack.com/Bluette1/Newsweek-Clone/d38aad0ca73b6fab9e287abf94db3ae1dab2d17e/index.html)
+[Live Demo](https://rawcdn.githack.com/Bluette1/directory-website/3d1b2e800629c4f8d79f6c110fd0d75a48d81aa6/html/index.html)
 
 ## Authors
 
@@ -34,13 +34,13 @@ This project is mainly about designing a website similar to a real life project 
 # Acknowledgements
 - The design was created by <a href="https://www.behance.net/mathewnjuguna">Mather Njuguna</a> and  <a href="https://www.behance.net/aweSam"> Sam Achola </a>on behance.
 - You can view the design template used <a href="https://www.behance.net/gallery/25563385/PatashuleKE">on behance</a>.
-- The images used were retrieved from this [site](https://www.pexels.com/).
+- The images used were retrieved from [CreateMePink](http://www.createmepink.com/).
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Bluette1/Capstone-project-html/issues).
+Feel free to check the [issues page](https://github.com/Bluette1/directory-website/issues).
 
 ## Show your support
 

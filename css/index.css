@@ -1,4 +1,13 @@
 /* Set the defaults */
+@font-face {
+  font-family: 'kiano_trialregular';
+  src:
+    url('../public/fonts/kiano/kianotrial-webfont.woff2') format('woff2'),
+    url('../public/fonts/kiano/kianotrial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -25,6 +34,7 @@ body {
   line-height: 20px;
   color: #333;
   overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -44,4 +54,252 @@ img {
   max-height: 100%;
   cursor: pointer;
   width: 100%;
+}
+
+.page-header {
+  background-color: #d32f43;
+  font-family: 'kiano_trialregular', Arial, Helvetica, sans-serif;
+}
+
+.appreciate-section .fas.fa-thumbs-up.fa-3x {
+  border-radius: 50%;
+  background-color: #e4939c;
+  color: #fff;
+  padding: 20px;
+  margin-left: auto;
+  cursor: pointer;
+  left: -52px;
+}
+
+.appreciate-section {
+  background-color: #e66877;
+}
+
+.appreciate-section .menu-icons,
+.appreciate-section p {
+  color: #fff;
+}
+
+.page-header .logo-left.logo,
+.logo-jumbotron,
+.jumbotron-info p,
+.appreciate-section p,
+.appreciate-section h2.logo {
+  font-family: 'kiano_trialregular', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 37px;
+  color: #fff;
+  padding-top: 15px;
+}
+
+.jumbotron-info p,
+.appreciate-section p {
+  font-size: initial;
+}
+
+.jumbotron-info {
+  background-color: #e4939c;
+}
+
+.jumbotron-button {
+  border-color: #d32f43;
+  background-color: #d32f43;
+  color: #fff;
+}
+
+.pioneer-jumbotron,
+.jumbotron-button {
+  font-family: 'kiano_trialregular', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+.jumbotron-button:hover {
+  border-color: #d32f43;
+  background-color: #d32f43;
+  color: #e4939c;
+}
+
+.logo-jumbotron,
+.pioneer-jumbotron {
+  color: #d32f43;
+}
+
+.page-header .center-items,
+.page-header .right-section {
+  font-family: 'kiano_trialregular', Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.right-items ul li {
+  padding-top: 12px;
+}
+
+.page-header .center-items ul li,
+.page-header .right-section ul li {
+  padding-right: 5px;
+  padding-top: 12px;
+  cursor: pointer;
+}
+
+.social-links a {
+  border: 1px solid #4b4a4a;
+  border-radius: 3.125em;
+  text-decoration: none;
+  background-color: #4b4a4a;
+  font-size: 1em;
+  list-style: none;
+  color: #fff;
+  padding: 0.625em;
+}
+
+footer a:hover {
+  color: #fff;
+  background-color: #e4939c;
+}
+
+footer .social-links a:hover {
+  background-color: rgb(207, 191, 207);
+  border-color: rgb(207, 191, 207);
+}
+
+.page-header.right-section ul li a,
+.page-header .logo-left .logo {
+  cursor: pointer;
+}
+
+.filter-white {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(104deg) brightness(103%) contrast(103%);
+}
+
+footer,
+h1.text-left-side,
+.text-area .brand,
+h1.text-right-side,
+h1.title-steps,
+.simple-steps {
+  font-family: 'kiano_trialregular', Arial, Helvetica, sans-serif;
+}
+
+.simple-steps h2 {
+  text-transform: uppercase;
+}
+
+h2.text-left-side {
+  color: #e4939c;
+  font-family: 'kiano_trialregular', Arial, Helvetica, sans-serif;
+}
+
+.search-area {
+  color: #d32f43;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  border-radius: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.search-area .search-button-network button {
+  color: #fff;
+  background-color: #d32f43;
+  padding: 7px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.text-area {
+  margin-top: 540px;
+  font-size: 1rem;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+nav.right-items {
+  margin-left: 87%;
+  margin-top: 64px;
+}
+
+.right-items ul {
+  position: static;
+  margin-top: 120px;
+  font-size: 0.7rem;
+}
+
+.search-simple-steps h2 {
+  text-transform: uppercase;
+}
+
+.menu-links ul,
+.right-menu ul,
+.social-links ul,
+.bottom-links .left-menu ul,
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .bottom-links .left-menu ul li:not(:last-child) {
+  border-right: 1px solid #333;
+}
+
+@media screen and  (max-width: 1199px) {
+  h2.text-right-side {
+    margin-left: -20px;
+  }
+}
+
+@media screen and  (max-width: 831px) {
+  footer .menu-links ul li:last-child {
+    display: none;
+  }
+}
+
+@media screen and  (min-width: 768px) {
+  .jumbotron-pioneers,
+  .appreciate-section {
+    width: 75%;
+  }
+}
+
+@media screen and  (max-width: 767px) {
+  .page-header .logo-left.logo {
+    font-size: 15px;
+    padding: unset;
+  }
+}
+
+@media screen and (max-width: 744px) {
+  footer .menu-links li {
+    font-size: 14px;
+    padding-right: 15px;
+    margin: 6px 0;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  footer .social-links ul {
+    margin-left: -5px;
+  }
+}
+
+@media screen and (max-width: 379px) {
+  footer .social-links ul li {
+    margin: 9px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .jumbotron-pioneers {
+    width: 50%;
+  }
+}
+
+@media screen and  (min-width: 1900px) {
+  nav.right-items {
+    margin-left: 70%;
+  }
 }

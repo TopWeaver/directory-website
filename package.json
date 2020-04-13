@@ -4,8 +4,8 @@
   "description": "This is a capstone project at the end of the Main HTML/CSS curriculum at [Microverse](https:www.microverse.org/) - @microverseinc.",
   "main": "index.html",
   "scripts": {
-    "lint": " npx stylelint npx stylelint ./css/.",
-    "lint-fix": "npx stylelint --fix npx stylelint ./css/.",
+    "lint": "npx stylelint ./css/.",
+    "lint-fix": "npx stylelint --fix  ./css/.",
     "html-validator-index": "npx html-validator-cli --verbose --file ./html/index.html",
     "html-validator-resultspage": "npx html-validator-cli --verbose --file ./html/resultspage.html",
     "html-validator-detailspage": "npx html-validator-cli --verbose --file ./html/detailspage.html",

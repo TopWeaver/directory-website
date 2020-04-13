@@ -1,0 +1,36 @@
+.details .jumbotron-info .row {
+  border: solid 1px #fff;
+  padding-left: 15px;
+}
+
+.jumbotron-info {
+  font-family: 'kiano_trialregular', Arial, Helvetica, sans-serif;
+}
+
+.details .subscribe-area {
+  color: #0f0f0f;
+  padding-top: 100px;
+}
+
+.subscribe-area .btn-primary {
+  color: #d32f43;
+  background-color: #e4939c;
+  border-color: #e4939c;
+}
+
+.subscribe-area .btn-primary:hover {
+  color: #d32f43;
+  background-color: #e4939c;
+  border-color: #e4939c;
+  box-shadow: none;
+}
+
+.subscribe-signup {
+  font-family: 'kiano_trialregular', Arial, Helvetica, sans-serif;
+  color: #e4939c;
+}
+
+.subscribe-signup a:hover {
+  color: #fff;
+  background-color: #e4939c;
+}
